@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project 3</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./assets/Bootstrap/Bootstrap 4.6/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="inner-header">
+                <div class="project-name">
+                    <h2 class="project-inner-name"><a href="/">Mini Project 3</a></h2>
+                </div>
+                <form action="#" class="header-search">
+                    <input type="text" placeholder="Tìm Kiếm..." class="search-input" title="Nhập để tìm kiếm">
+                    <a class="search-suggestion"></a>
+                    <button class="search-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="toggle">
+            <div class="circle">
+                <i class="fa-regular fa-sun"></i>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main>
+        <div class="section-1 mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="inner-category">
+                            <h3>Danh mục sản phẩm</h3>
+                            <ul class="category"></ul>
+                        </div>
+                    </div>
+                    <div class="col-10">
+                        <div class="inner-sort-by mb-3">
+                            <span>Sắp xếp theo</span>
+                            <div class="radio-sort">
+                                <div class="default">
+                                    <input type="radio" name="sort-by" id="default" checked="true">
+                                    <label for="default">Mặc định</label>
+                                </div>
+                                <div class="discount text-center">
+                                    <input type="radio" name="sort-by" id="discount">
+                                    <label for="discount">Giảm giá nhiều</label>
+                                </div>
+                                <div class="max-to-min">
+                                    <input type="radio" name="sort-by" id="max-to-min">
+                                    <label for="max-to-min">Giá từ cao đến thấp</label>
+                                </div>
+                                <div class="min-to-max">
+                                    <input type="radio" name="sort-by" id="min-to-max">
+                                    <label for="min-to-max">Giá từ thấp đến cao</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inner-main-layout">
+                            <div class="row list-item">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-pagination">
+            <div class="container">
+                <div class="inner-pagination">
+                    <ul class="pagination">
+                        <li class="pagination-page">1</li>
+                        <li class="pagination-page">2</li>
+                        <li class="pagination-page">3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="footer-main">
+            <div class="container">
+                <div class="inner-footer">
+                        <ul class="footer-list"></ul>
+                        <ul class="footer-list"></ul>
+                        <ul class="footer-list"></ul>
+                        <ul class="footer-list"></ul>
+                        <ul class="footer-list"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyrights">
+            <span>Nghiem Tuan Anh</span>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Bootstrap -->
+    <script src="./assets/Bootstrap/Bootstrap 4.6/jquery.slim.min.js"></script>
+    <script src="./assets/Bootstrap/Bootstrap 4.6/bootstrap.bundle.min.js"></script>
+    <script src="./main.js" type="module"></script>
+</body>
+</html>
